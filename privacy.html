@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>书说 隐私政策 / Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f1e8;
+      --card: #fffcf7;
+      --ink: #1c1916;
+      --muted: #5c564e;
+      --line: #e4d9c8;
+      --accent: #3d4a8a;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #161410;
+        --card: #1e1b17;
+        --ink: #f3eee6;
+        --muted: #b7aea2;
+        --line: #3a342c;
+        --accent: #9aa6e0;
+      }
+    }
+    body {
+      margin: 0;
+      font: 16px/1.7 -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+    }
+    main {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+    h1 { font-size: 1.6rem; letter-spacing: 0.04em; margin: 0 0 0.4rem; }
+    h2 { font-size: 1.12rem; margin: 1.8rem 0 0.5rem; }
+    p, li { color: var(--ink); }
+    .meta { color: var(--muted); font-size: 0.92rem; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 1.1rem 1.2rem;
+      margin: 1rem 0 1.4rem;
+    }
+    a { color: var(--accent); }
+    .en { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--line); }
+    .en h1 { font-size: 1.35rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>书说隐私政策</h1>
+    <p class="meta">生效日期：2026 年 10 月 12 日 · 开发者：独立开发者（联系邮箱 xileshuo@icloud.com）<br>应用：书说（iOS）· Bundle ID：com.braincore.read</p>
+
+    <div class="card">
+      书说是一款在你手机上运行的阅读摘录应用。我们<strong>没有</strong>用于注册账号、收集 API Key 或托管你书架的云端服务器。本政策说明我们如何处理与书说相关的信息。
+    </div>
+
+    <h2>1. 我们收集什么</h2>
+    <p>书说<strong>不会</strong>为广告或分析目的向我们自己的服务器上传你的阅读数据。应用可能在本机保存或临时处理：</p>
+    <ul>
+      <li><strong>微信读书 Skills API Key</strong>：仅当你主动粘贴并保存时，写入本机钥匙串（This Device Only），用于向微信读书官方接口请求<strong>你自己账号</strong>下的书架、划线与阅读统计。书说不会把 Key 发到开发者的服务器。</li>
+      <li><strong>书架、划线、想法、阅读统计、封面图、收藏与摘录</strong>：保存在本机，以及同一开发者账号下的 App Group（group.com.braincore.read），供主程序和桌面小组件读取。</li>
+      <li><strong>你填写的显示名、分享头像</strong>：仅用于生成分享卡片，存在本机。</li>
+      <li><strong>相册与相机内容</strong>：仅在你选择头像、随手摘抄封面、保存分享图，或拍照/选图识别句子时访问。照片不会上传到书说服务器。</li>
+      <li><strong>导入的文本文件</strong>：你通过「打开文件」导入的摘录，在本机解析后写入本地摘录库。</li>
+      <li><strong>通知偏好</strong>：星期、时段、条数等，仅用于在本机调度系统本地通知。</li>
+    </ul>
+
+    <h2>2. 我们如何使用这些信息</h2>
+    <ul>
+      <li>在应用内展示、筛选、收藏、分享你的摘录；</li>
+      <li>在主屏幕小组件上显示句子（数据来自上述本机存储）；</li>
+      <li>按你的设置发出本地提醒；</li>
+      <li>在你绑定 Key 后，向微信读书 Skills 接口同步你授权范围内的数据。</li>
+    </ul>
+
+    <h2>3. 网络与第三方</h2>
+    <ul>
+      <li><strong>微信读书</strong>：同步时，你的设备直接请求腾讯运营的微信读书接口。对方如何处理数据以其自身政策为准。书说不是腾讯或微信读书的官方产品。</li>
+      <li><strong>Apple</strong>：系统会处理小组件、通知、钥匙串、相册权限、以及 App 内购买。订阅与买断的付款信息由 Apple 处理，开发者看不到完整支付卡号。</li>
+      <li><strong>外链</strong>：你点击「作者小红书」「GitHub」或发送反馈邮件时，将打开系统浏览器或邮件应用。我们不通过这些链接收集你的阅读数据。</li>
+    </ul>
+    <p>书说<strong>不接入</strong>第三方广告 SDK、不接入第三方统计分析 SDK，也<strong>不做</strong>跨 App 广告追踪。</p>
+
+    <h2>4. 保存期限与删除</h2>
+    <p>数据默认保留在你的设备上，直至你删除对应内容、解除绑定 Key、清除 App 数据或卸载应用。换机请先导出 Markdown 或完整备份文件，再在新设备导入。卸载后，本机钥匙串通常会被系统删除。我们没有自己的云端账号可以替你恢复钥匙。</p>
+    <p>你可在设置中解除绑定以删除本机保存的 API Key。书架缓存可能仍留在手机上，直到你删除相关内容或卸载应用。</p>
+
+    <h2>5. 儿童</h2>
+    <p>书说面向一般用户，不以 13 岁以下儿童为主要对象，也不会故意收集儿童的个人数据。</p>
+
+    <h2>6. 你的权利</h2>
+    <p>你可以随时在系统设置中关闭相册、相机、通知权限。你可以不绑定微信读书、仅使用随手摘抄与本地导入。对政策或数据处理有疑问，请发邮件至 <a href="mailto:xileshuo@icloud.com">xileshuo@icloud.com</a>，请勿在邮件中粘贴完整 API Key。</p>
+
+    <h2>7. 政策变更</h2>
+    <p>若处理方式发生实质变化，我们会更新本页的生效日期，并在应用内隐私说明中同步要点。</p>
+
+    <h2>8. 联系我们</h2>
+    <p>开发者邮箱：<a href="mailto:xileshuo@icloud.com">xileshuo@icloud.com</a></p>
+
+    <section class="en" lang="en">
+      <h1>Shushuo Privacy Policy (English)</h1>
+      <p class="meta">Effective: 12 October 2026 · Developer contact: xileshuo@icloud.com<br>App: 书说 (Shushuo) for iOS · Bundle ID: com.braincore.read</p>
+      <p>Shushuo runs on your iPhone. We do <strong>not</strong> operate a cloud account system that collects your API key or library. Data stays on device unless you sync with WeRead using a key you paste yourself.</p>
+      <p><strong>WeRead Skills API key:</strong> stored only in the on-device Keychain (This Device Only) and used to call WeRead’s official APIs for <em>your</em> library, highlights, and reading stats. The key is not sent to the developer’s servers.</p>
+      <p><strong>Quotes, books, covers, avatar, preferences:</strong> stored locally and in App Group <code>group.com.braincore.read</code> for the app and widgets. Move to a new device with Markdown export or a full backup file. The API key stays in on-device Keychain only.</p>
+      <p><strong>Photos / camera:</strong> used only when you pick an avatar or cover, save a share image, or capture text. Images are not uploaded to us.</p>
+      <p><strong>Notifications:</strong> local notifications scheduled on device after you opt in.</p>
+      <p><strong>Purchases:</strong> subscriptions and lifetime unlock go through Apple In-App Purchase. We do not receive your card number. Apple receipts are used only to unlock Plus on device.</p>
+      <p><strong>Network:</strong> WeRead APIs (your device → Tencent); optional Safari/Mail when you open the author’s Xiaohongshu/GitHub or send feedback. No ad SDKs, no third-party analytics, no tracking for advertising.</p>
+      <p>Shushuo is not an official Tencent or WeRead product. To delete the key, unbind it in Settings. Uninstalling removes on-device data; we cannot restore it from the cloud because we do not keep a copy.</p>
+      <p>Contact: <a href="mailto:xileshuo@icloud.com">xileshuo@icloud.com</a> (do not paste a full API key).</p>
+    </section>
+  </main>
+</body>
+</html>
